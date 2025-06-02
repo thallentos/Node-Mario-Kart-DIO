@@ -78,14 +78,6 @@
 
 <h3>🕹️ Regras & mecânicas:</h3>
 
-<b>Confronto:</b>
-
-<ul>
-    <li>sorteia aleatoriamente se é um casco (-1 ponto) ou um bomba (-2 pontos)</li>
-    <li>quem vence o confronto ganha um turbo (+1 ponto) aleatoriamente</li>
-</ul>
-<br>
-
 <b>Condição de vitória:</b>
 
 <input type="checkbox" id="vitoria-item" />
