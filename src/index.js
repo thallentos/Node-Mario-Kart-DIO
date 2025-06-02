@@ -174,3 +174,7 @@ async function declareWinner(character1, character2) {
   await playRaceEngine(player1, player2);
   await declareWinner(player1, player2);
 })();
+
+/**
+ * Falta adicionar os outros personagens e colocar uma forma de escolhê-los pelo terminal!
+ */
