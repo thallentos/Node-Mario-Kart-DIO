@@ -323,57 +323,6 @@ async function desejaJogarNovamente() {
   }
 }
 
-// (async function main() {
-//   await esperarSegundos(2);
-//   console.log("\nBem-vindo à corrida Mario Kart!🏎️  🏁 🏆");
-//   await esperarSegundos(2);
-//   console.log("Como vocês já leram sobre as regras do jogo");
-//   await esperarSegundos(2.5);
-//   console.log("e as habilidades dos personagens");
-//   await esperarSegundos(2.5);
-//   console.log("vamos comecar a corrida!");
-
-//   //tempo antes da escolha do primeiro personagem
-//   await esperarSegundos(2);
-//   const { personagem: player1, index: index1 } = await escolherPersonagem(
-//     null,
-//     "Escolha o primeiro corredor:"
-//   );
-
-//   //tempo antes da escolha do segundo personagem
-//   await esperarSegundos(2);
-//   const { personagem: player2 } = await escolherPersonagem(
-//     index1,
-//     "Escolha o segundo corredor:"
-//   );
-
-//   await esperarSegundos(3);
-//   console.log(`\nPreparando a corrida...`);
-//   await esperarSegundos(5);
-
-//   console.log(
-//     `\n🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...`
-//   );
-//   await esperarSegundos(2);
-//   console.log(`\nEu sou...`);
-//   await esperarSegundos(2);
-//   console.log(`a velocidade!\n`);
-//   await esperarSegundos(1.5);
-
-//   console.log("3");
-//   await esperarSegundos(1);
-//   console.log("2");
-//   await esperarSegundos(1);
-//   console.log("1");
-//   await esperarSegundos(1);
-//   console.log("CORRAM!🏁");
-//   await esperarSegundos(1);
-//   console.log("-------------------------------------------------------");
-
-//   await playRaceEngine(player1, player2);
-//   await declareWinner(player1, player2);
-// })();
-
 (async function main() {
   let continuar = true;
 
